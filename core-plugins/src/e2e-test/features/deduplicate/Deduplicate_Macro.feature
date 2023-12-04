@@ -1,4 +1,4 @@
-@Deduplicate
+@Deduplicatee
 Feature:Deduplicate- Verification of Deduplicate pipeline with File as source and File as target using macros
 
   @GCS_DEDUPLICATE_TEST @FILE_SINK_TEST
