@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
   features = {"src/e2e-test/features"},
   glue = {"io.cdap.plugin.groupby.stepsdesign", "stepsdesign", "io.cdap.plugin.common.stepsdesign"},
-  tags = {"@GroupBy"},
+  tags = {"@GroupByy"},
   monochrome = true,
   plugin = {"pretty", "html:target/cucumber-html-report/groupby-action",
     "json:target/cucumber-reports/cucumber-groupby-action.json",

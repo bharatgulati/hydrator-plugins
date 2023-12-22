@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
   features = {"src/e2e-test/features"},
   glue = {"io.cdap.plugin.normalize.stepsdesign", "stepsdesign", "io.cdap.plugin.common.stepsdesign"},
-  tags = {"@Normalize and not @PLUGIN-1228 and not @PLUGIN-1231"},
+  tags = {"@Normalizee and not @PLUGIN-1228 and not @PLUGIN-1231"},
   /* TODO :Enable tests once issues fixed https://cdap.atlassian.net/browse/PLUGIN-1228,
       https://cdap.atlassian.net/browse/PLUGIN-1231
    */

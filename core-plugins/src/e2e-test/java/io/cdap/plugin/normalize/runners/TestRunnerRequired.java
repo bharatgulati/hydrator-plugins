@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/e2e-test/features"},
         glue = {"io.cdap.plugin.normalize.stepsdesign", "stepsdesign", "io.cdap.plugin.common.stepsdesign"},
-        tags = {"@Normalize_Required"},
+        tags = {"@Normalize_Requiredd"},
         monochrome = true,
         plugin = {"pretty", "html:target/cucumber-html-report/normalize",
                 "json:target/cucumber-reports/cucumber-normalize.json",
